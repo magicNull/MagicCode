@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="utf-8" />
+		<title>你的代码好似魔法</title>
+		<!-- meta使用viewport以确保页面可自由缩放 -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- jquery begin-->
+		<!-- 引入 jQuery Mobile 样式 -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+		<!-- 引入 jQuery 库 -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+		<!-- 引入 jQuery Mobile 库 -->
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<!-- jquery end-->
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mock-min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			@font-face {
+				font-family: '';
+				src: url();
+			}
+		</style>
+	</head>
+	<body>
+		<div data-role="page" id="pageone">
+			<!-- 面板 -->
+			<div data-role="panel" id="overlayPanel" data-display="overlay" data-position-fixed="true">
+				<div><img src="img/timg.jpg"></div>
+				<p class="flex"><span>Mr.magic</span><span>签到</span></p>
+				<ul>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-mail ui-btn-icon-notext">图标</a>我的邮箱</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-star ui-btn-icon-notext">图标</a>收藏</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-eye ui-btn-icon-notext">图标</a>关注的人</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext">图标</a>点赞作品</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-shop ui-btn-icon-notext">图标</a>CodeStore</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+				</ul>
+				<div data-role="footer" data-position="fixed">
+					<div data-role="navbar" data-iconpos="top">
+						<ul>
+							<li><a href="#" data-icon="home">主页</a></li>
+							<li><a href="#" data-icon="gear">设置</a></li>
+							<li><a href="#" data-icon="power">退出</a></li>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- 面板 end -->
+			<div data-role="header" data-position="fixed">
+				<a href="#overlayPanel" data-role="none" class="over"><img src="img/timg.jpg"></a>
+				<h1>Magic&nbsp;<span>Code</span></h1>
+				<!-- <button>a</button> -->
+				<div><a href="#" class="ui-btn ui-corner-all ui-icon-search ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></div>
+			</div>
+			<!-- lunbo -->
+			<div class="lunbo">
+				<img src="img/0.jpg" alt="">
+				<ul>
+					<li class="now"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+
+				<div>
+					<a href="#" class="avi"><img src="img/0.jpg"></a>
+					<a href="#"><img src="img/1.jpg"></a>
+					<a href="#"><img src="img/2.jpg"></a>
+					<a href="#"><img src="img/3.jpg"></a>
+				</div>
+				<br>
+			</div>
+			<!-- lunbo end -->
+			<div data-role="main" class="ui-content">
+				<div class="box">
+					
+					<div>
+						<h4>推荐系统中模型训练及使用流程的标准化</h4>
+						<div>
+							<p>文章作者：梁超腾讯高级工程师编辑整理：Hoh Xil内容来源：DataFun AI Talk 出品社区：DataFun注：欢迎转载，转载请在留言区内留言。</p>
+							<div><img src="img/bVbz225.webp"></div>
+						</div>
+						<div>
+							<span><a href="#" class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext">图标</a></span>
+							<span><a href="#">匿名</a>99年99月</span>
+						</div>
+					</div>
+					
+					<!-- <div>
+						<h4>推荐系统中模型训练及使用流程的标准化</h4>
+						<div>
+							<p>文章作者：梁超腾讯高级工程师编辑整理：Hoh Xil内容来源：DataFun AI Talk 出品社区：DataFun注：欢迎转载，转载请在留言区内留言。</p>
+							<div><img src="img/bVbz225.webp"></div>
+						</div>
+						<div>
+							<span><a href="#" class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext">图标</a></span>
+							<span><a href="#">匿名</a>99年99月</span>
+						</div>
+					</div>
+					<div>
+						<h4>推荐系统中模型训练及使用流程的标准化</h4>
+						<div>
+							<p>文章作者：梁超腾讯高级工程师编辑整理：Hoh Xil内容来源：DataFun AI Talk 出品社区：DataFun注：欢迎转载，转载请在留言区内留言。</p>
+							<div><img src="img/bVbz225.webp"></div>
+						</div>
+						<div>
+							<span><a href="#" class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext">图标</a></span>
+							<span><a href="#">匿名</a>99年99月</span>
+						</div>
+					</div> -->
+				</div>
+			</div>
+
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li><a href="#pageone" data-transition="pop" data-icon="home" class="ui-btn-active ui-state-persist">首页</a></li>
+						<li><a href="#pagetwo" data-transition="pop" data-icon="eye">发现</a></li>
+						<div class="add"><a href="#pagethree" data-role="none" data-transition="pop">+</a></div>
+						<li><a href="#pagefour" data-icon="clock" data-transition="pop">新闻</a></li>
+						<li><a href="#pagefive" data-icon="shop" data-transition="pop">商城</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div data-role="page" id="pagetwo">
+			<!-- 面板 -->
+			<div data-role="panel" id="overlayPanel2" data-display="overlay" data-position-fixed="true">
+				<div><img src="img/timg.jpg"></div>
+				<p class="flex"><span>Mr.magic</span><span>签到</span></p>
+				<ul>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-mail ui-btn-icon-notext">图标</a>我的邮箱</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-star ui-btn-icon-notext">图标</a>收藏</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-eye ui-btn-icon-notext">图标</a>关注的人</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext">图标</a>点赞作品</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-shop ui-btn-icon-notext">图标</a>CodeStore</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+				</ul>
+				<div data-role="footer" data-position="fixed">
+					<div data-role="navbar" data-iconpos="top">
+						<ul>
+							<li><a href="#" data-icon="home">主页</a></li>
+							<li><a href="#" data-icon="gear">设置</a></li>
+							<li><a href="#" data-icon="power">退出</a></li>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- 面板 end -->
+			<div data-role="header" data-position="fixed">
+				<a href="#overlayPanel2" data-role="none" class="over"><img src="img/timg.jpg"></a>
+				<h1>Magic&nbsp;<span>Code</span></h1>
+				<div><a href="#" class="ui-btn ui-corner-all ui-icon-search ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></div>
+			</div>
+
+			<div data-role="main" class="ui-content">
+				<!-- tab -->
+				<div class="tab">
+					<ul>
+						<li class="ul">热门技术</li>
+						<li>最新动态</li>
+						<li>回答问题</li>
+					</ul>
+					<ul>
+						<li class="av">
+							<form class="ui-filterable">
+								<input id="myFilter" data-type="search" placeholder="搜索你关心的技术..">
+							</form>
+							<ul data-role="listview" data-filter="true" data-input="#myFilter" data-autodividers="true" data-inset="true" id="node">
+								<!-- 动态添加 -->
+							</ul>
+
+						</li>
+						<li>
+							<div>
+								<div>
+									<div>
+										<img src="img/timg.jpg">
+									</div>
+									<div>
+										<div>
+											<h4>匿名</h4>
+											<a href="#" class="ui-btn ui-corner-all ui-icon-bullets ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a>
+										</div>
+										<div><a href="#">#Golang</a><span>11-11</span></div>
+									</div>
+								</div>
+								<div>
+									<p>由于 go 最终是编译为一个二进制可执行文件，没有运行时依赖，也不需要管理库，丢到服务器上就可以直接运行。所以，如果你有一个二进制文件，那么在容器中打包二进制文件的要点是什么？如果使用 docker
+										的话，还得在服务器上装 docker，那么把最终程序打包成 docker 有什么好处呢？</p>
+								</div>
+								<p>
+									<span><a href="#" class="ui-btn ui-corner-all ui-icon-action ui-btn-icon-notext">按钮</a>110</span>
+									<span><a href="#" class="ui-btn ui-corner-all ui-icon-comment ui-btn-icon-notext">按钮</a>120</span>
+									<span><a href="#" class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext">按钮</a>130</span>
+								</p>
+							</div>
+							<div>
+								<div>
+									<div>
+										<img src="img/timg.jpg">
+									</div>
+									<div>
+										<div>
+											<h4>匿名</h4>
+											<a href="#" class="ui-btn ui-corner-all ui-icon-bullets ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a>
+										</div>
+										<div><a href="#">#系统</a><span>11-11</span></div>
+									</div>
+								</div>
+								<div>
+									<p> <img src="img/bVbz225.webp"></p>
+								</div>
+								<p>
+									<span><a href="#" class="ui-btn ui-corner-all ui-icon-action ui-btn-icon-notext">按钮</a>110</span>
+									<span><a href="#" class="ui-btn ui-corner-all ui-icon-comment ui-btn-icon-notext">按钮</a>120</span>
+									<span><a href="#" class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext">按钮</a>130</span>
+								</p>
+							</div>
+							
+							<!-- <div>
+								<div>
+									<div>
+										<img src="img/timg.jpg">
+									</div>
+									<div>
+										<div>
+											<h4>匿名</h4>
+											<a href="#" class="ui-btn ui-corner-all ui-icon-bullets ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a>
+										</div>
+										<div><a href="#">#Golang</a><span>11-11</span></div>
+									</div>
+								</div>
+								<div>
+									<p>由于 go 最终是编译为一个二进制可执行文件，没有运行时依赖，也不需要管理库，丢到服务器上就可以直接运行。所以，如果你有一个二进制文件，那么在容器中打包二进制文件的要点是什么？如果使用 docker
+										的话，还得在服务器上装 docker，那么把最终程序打包成 docker 有什么好处呢？</p>
+								</div>
+								<p>
+									<span><a href="#" class="ui-btn ui-corner-all ui-icon-action ui-btn-icon-notext">按钮</a>110</span>
+									<span><a href="#" class="ui-btn ui-corner-all ui-icon-comment ui-btn-icon-notext">按钮</a>120</span>
+									<span><a href="#" class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext">按钮</a>130</span>
+								</p>
+							</div> -->
+							
+						</li>
+						<li>
+							<div>
+								<div>
+									<div>
+										<div>1</div>
+										<div>回答</div>
+									</div>
+									<div>
+										<div>
+											<a href="#">匿名</a>
+											<span>3年前提问</span>
+										</div>
+										<h4>
+											靠自己的技术吃不了饭怎么办
+										</h4>
+										<div>
+											<span>闲聊</span>
+											<span>技术</span>
+											<span>带我飞</span>
+										</div>
+									</div>
+								</div>
+								<div>
+									<span>最佳回答:</span>
+									<span>为什么不去吃蛋糕呢?</span>
+								</div>
+							</div>
+							<div>
+								<div>
+									<div>
+										<div>20</div>
+										<div>回答</div>
+									</div>
+									<div>
+										<div>
+											<a href="#">匿名</a>
+											<span>3年前提问</span>
+										</div>
+										<h4>
+											程序老出Bug怎么办
+										</h4>
+										<div>
+											<span>闲聊</span>
+											<span>技术</span>
+											<span>BUG</span>
+										</div>
+									</div>
+								</div>
+								<div>
+									<span>最佳回答:</span>
+									<span>干掉发现Bug的人就没有Bug了</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<!-- tab end -->
+			</div>
+
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li><a href="#pageone" data-transition="pop" data-icon="home">首页</a></li>
+						<li><a href="#pagetwo" data-transition="pop" data-icon="eye" class="ui-btn-active ui-state-persist">发现</a></li>
+						<div class="add"><a href="#pagethree" data-role="none" data-transition="pop">+</a></div>
+						<li><a href="#pagefour" data-icon="clock" data-transition="pop">新闻</a></li>
+						<li><a href="#pagefive" data-icon="shop" data-transition="pop">商城</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div data-role="page" id="pagethree">
+			<!-- 面板 -->
+			<div data-role="panel" id="overlayPanel3" data-display="overlay" data-position-fixed="true">
+				<div><img src="img/timg.jpg"></div>
+				<p class="flex"><span>Mr.magic</span><span>签到</span></p>
+				<ul>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-mail ui-btn-icon-notext">图标</a>我的邮箱</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-star ui-btn-icon-notext">图标</a>收藏</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-eye ui-btn-icon-notext">图标</a>关注的人</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext">图标</a>点赞作品</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-shop ui-btn-icon-notext">图标</a>CodeStore</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+				</ul>
+				<div data-role="footer" data-position="fixed">
+					<div data-role="navbar" data-iconpos="top">
+						<ul>
+							<li><a href="#" data-icon="home">主页</a></li>
+							<li><a href="#" data-icon="gear">设置</a></li>
+							<li><a href="#" data-icon="power">退出</a></li>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- 面板 end -->
+			<div data-role="header" data-position="fixed">
+				<a href="#overlayPanel3" data-role="none" class="over"><img src="img/timg.jpg"></a>
+				<h1>Magic&nbsp;<span>Code</span></h1>
+				<div><a href="#" class="ui-btn ui-corner-all ui-icon-search ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></div>
+			</div>
+
+			<div data-role="main" class="ui-content">
+				<form method="post" action="">
+					<h3>发布文章</h3>
+					<div class="ui-field-contain">
+						<label for="fullname">题目：</label>
+						<input type="text" name="fullname" id="fullname">
+						<label for="bday">创作日期：</label>
+						  <input type="date" name="bday" id="bday">
+						<label for="email">E-mail:</label>
+						  <input type="email" name="email" id="email" placeholder="你的电子邮箱..">
+						<label for="info">内容:</label>
+						<textarea name="addinfo" id="info"></textarea>
+					</div>
+					<fieldset data-role="controlgroup" data-type="horizontal">
+						<legend>请选择您的架构：</legend>
+						<label for="male">B/S架构</label>
+						<input type="radio" name="gender" id="male" value="male">
+						<label for="female">C/S架构</label>
+						<input type="radio" name="gender" id="female" value="female">
+					</fieldset>
+
+					<fieldset data-role="controlgroup" data-type="horizontal">
+						<legend>请选择您的文章展示地：</legend>
+						<label for="red">灌水</label>
+						<input type="checkbox" name="favcolor" id="red" value="red">
+						<label for="green">普通</label>
+						<input type="checkbox" name="favcolor" id="green" value="green">
+						<label for="blue">技术</label>
+						<input type="checkbox" name="favcolor" id="blue" value="blue">
+					</fieldset>
+					<div><input type="submit" data-inline="true" value="提交"></div>
+				</form>
+
+			</div>
+
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li><a href="#pageone" data-transition="pop" data-icon="home">首页</a></li>
+						<li><a href="#pagetwo" data-transition="pop" data-icon="eye">发现</a></li>
+						<div class="add"><a href="#pagethree" data-role="none" data-transition="pop">+</a></div>
+						<li><a href="#pagefour" data-icon="clock">新闻</a></li>
+						<li><a href="#pagefive" data-icon="shop">商城</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div data-role="page" id="pagefour">
+			<!-- 面板 -->
+			<div data-role="panel" id="overlayPanel4" data-display="overlay" data-position-fixed="true">
+				<div><img src="img/timg.jpg"></div>
+				<p class="flex"><span>Mr.magic</span><span>签到</span></p>
+				<ul>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-mail ui-btn-icon-notext">图标</a>我的邮箱</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-star ui-btn-icon-notext">图标</a>收藏</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-eye ui-btn-icon-notext">图标</a>关注的人</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext">图标</a>点赞作品</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-shop ui-btn-icon-notext">图标</a>CodeStore</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+				</ul>
+				<div data-role="footer" data-position="fixed">
+					<div data-role="navbar" data-iconpos="top">
+						<ul>
+							<li><a href="#" data-icon="home">主页</a></li>
+							<li><a href="#" data-icon="gear">设置</a></li>
+							<li><a href="#" data-icon="power">退出</a></li>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- 面板 end -->
+			<div data-role="header" data-position="fixed">
+				<a href="#overlayPanel4" data-role="none" class="over"><img src="img/timg.jpg"></a>
+				<h1>Magic&nbsp;<span>Code</span></h1>
+				<!-- <button>a</button> -->
+				<div><a href="#" class="ui-btn ui-corner-all ui-icon-search ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></div>
+			</div>
+
+			<div data-role="main" class="ui-content">
+				<div>
+					<div>
+						<div>
+							<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a>
+							<h4>Plans for the Next Iteration of Vue.js</h4>
+						</div>
+						<p><span>Sep 30, 2018</span>|<span>Evan You</span></p>
+					</div>
+					<div>Last week at Vue.js London I gave a brief sneak peek of what’s coming in the next major version of Vue. This
+						post provides an in-depth overview of the plan.</div>
+				</div>
+				
+				<div>
+					<div>
+						<div>
+							<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a>
+							<h4>Plans for the Next Iteration of Vue.js</h4>
+						</div>
+						<p><span>Sep 30, 2018</span>|<span>Evan You</span></p>
+					</div>
+					<div>
+						<img src="img/vuejs.jpg">
+						Last week at Vue.js London I gave a brief sneak peek of what’s coming in the next major version of Vue. This post
+						provides an in-depth overview of the plan.</div>
+				</div>
+
+				<div>
+					<div>
+						<div>
+							<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a>
+							<h4>Plans for the Next Iteration of Vue.js</h4>
+						</div>
+						<p><span>Sep 30, 2018</span>|<span>Evan You</span></p>
+					</div>
+					<div>
+						<div>
+							<div><img src="img/vuejs.jpg"></div>
+							<p>Last week at Vue.js London I gave a brief sneak peek of what’s coming in the next major version of Vue. This
+								post provides an in-depth overview of the plan.</p>
+						</div>
+					</div>
+				</div>
+				
+				<div>
+					<div>
+						<div>
+							<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a>
+							<h4>Plans for the Next Iteration of Vue.js</h4>
+						</div>
+						<p><span>Sep 30, 2018</span>|<span>Evan You</span></p>
+					</div>
+					<div>Last week at Vue.js London I gave a brief sneak peek of what’s coming in the next major version of Vue. This
+						post provides an in-depth overview of the plan.</div>
+				</div>
+
+			</div>
+
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li><a href="#pageone" data-transition="pop" data-icon="home">首页</a></li>
+						<li><a href="#pagetwo" data-transition="pop" data-icon="eye">发现</a></li>
+						<div class="add"><a href="#pagethree" data-role="none" data-transition="pop">+</a></div>
+						<li><a href="#pagefour" data-icon="clock" class="ui-btn-active ui-state-persist" data-transition="pop">新闻</a></li>
+						<li><a href="#pagefive" data-icon="shop" data-transition="pop">商城</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div data-role="page" id="pagefive">
+			<!-- 面板 -->
+			<div data-role="panel" id="overlayPanel5" data-display="overlay" data-position-fixed="true">
+				<div><img src="img/timg.jpg"></div>
+				<p class="flex"><span>Mr.magic</span><span>签到</span></p>
+				<ul>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-mail ui-btn-icon-notext">图标</a>我的邮箱</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-star ui-btn-icon-notext">图标</a>收藏</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-eye ui-btn-icon-notext">图标</a>关注的人</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-heart ui-btn-icon-notext">图标</a>点赞作品</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+					<li>
+						<span><a href="#" class="ui-btn ui-corner-all ui-icon-shop ui-btn-icon-notext">图标</a>CodeStore</span>
+						<a href="#" class="ui-btn ui-corner-all ui-icon-carat-r ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></li>
+				</ul>
+				<div data-role="footer" data-position="fixed">
+					<div data-role="navbar" data-iconpos="top">
+						<ul>
+							<li><a href="#" data-icon="home">主页</a></li>
+							<li><a href="#" data-icon="gear">设置</a></li>
+							<li><a href="#" data-icon="power">退出</a></li>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- 面板 end -->
+			<div data-role="header" data-position="fixed">
+				<a href="#overlayPanel5" data-role="none" class="over"><img src="img/timg.jpg"></a>
+				<h1>Magic&nbsp;<span>Code</span></h1>
+				<!-- <button>a</button> -->
+				<div><a href="#" class="ui-btn ui-corner-all ui-icon-search ui-btn-icon-notext ui-nodisc-icon ui-alt-icon">图标</a></div>
+			</div>
+
+			<div class="box_hd">
+				<img src="img/0.jpg" style="width: 100%;opacity: 0;">
+				<a href="#"><img src="img/0.jpg" alt=""></a>
+				<a href="#"><img src="img/1.jpg" alt=""></a>
+				<a href="#"><img src="img/2.jpg" alt=""></a>
+				<a href="#"><img src="img/3.jpg" alt=""></a>
+				<div>可互动广告,来点我滑我把</div>
+			</div>
+			<div data-role="main" class="ui-content">
+				<div>
+					<div>
+						<div><img src="img/angular.js.jpg"></div>
+						<div>
+							<h4>angularJs学习资料</h4>
+							<div>
+								<span>￥<b>250.00</b></span>
+								<span><b>233</b>人想要</span>
+							</div>
+						</div>
+					</div>
+					
+					<div>
+						<div><img src="img/angular.js.jpg"></div>
+						<div>
+							<h4>angularJs学习资料</h4>
+							<div>
+								<span>￥<b>250.00</b></span>
+								<span><b>233</b>人想要</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div>
+						<div><img src="img/html5.jpg"></div>
+						<div>
+							<h4>HTML5学习资料</h4>
+							<div>
+								<span>￥<b>250.00</b></span>
+								<span><b>233</b>人想要</span>
+							</div>
+						</div>
+					</div>
+					
+					<div>
+						<div><img src="img/html5.jpg"></div>
+						<div>
+							<h4>HTML5学习资料</h4>
+							<div>
+								<span>￥<b>250.00</b></span>
+								<span><b>233</b>人想要</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div>
+						<div><img src="img/angular.js.jpg"></div>
+						<div>
+							<h4>angularJs学习资料</h4>
+							<div>
+								<span>￥<b>250.00</b></span>
+								<span><b>233</b>人想要</span>
+							</div>
+						</div>
+					</div>
+					
+					<div>
+						<div><img src="img/angular.js.jpg"></div>
+						<div>
+							<h4>angularJs学习资料</h4>
+							<div>
+								<span>￥<b>250.00</b></span>
+								<span><b>233</b>人想要</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li><a href="#pageone" data-transition="pop" data-icon="home">首页</a></li>
+						<li><a href="#pagetwo" data-transition="pop" data-icon="eye">发现</a></li>
+						<div class="add"><a href="#pagethree" data-role="none" data-transition="pop">+</a></div>
+						<li><a href="#pagefour" data-icon="clock" data-transition="pop">新闻</a></li>
+						<li><a href="#pagefive" data-icon="shop" class="ui-btn-active ui-state-persist" data-transition="pop">商城</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
